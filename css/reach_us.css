@@ -1,0 +1,14 @@
+#useful-links{
+  list-style-type: initial;
+  text-align: left;
+  margin-left: 20px;
+}
+
+#useful-links li{
+  margin-bottom: 5px;
+}
+
+#useful-links a,#useful-links a:visited{
+  text-decoration: none;
+  color: #897373;
+}

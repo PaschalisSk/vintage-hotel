@@ -1,0 +1,77 @@
+@font-face{
+  font-family: LeagueGothic-Regular;
+  src: url("../fonts/LeagueGothic-Regular.otf");
+}
+
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav{
+  background-image: url("../images/nav-bg.png");
+  width: 926px;
+  height: 30px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.4s ease-in-out;
+  -moz-transition: height 0.4s ease-in-out;
+  -ms-transition: height 0.4s ease-in-out;
+  -o-transition: height 0.4s ease-in-out;
+  transition: height 0.4s ease-in-out;
+}
+
+#logo{
+  float: left;
+  margin-left: 15px;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav li{
+  float: right;
+  padding: 0px 15px;
+  border-left: 1px solid rgba(108,108,108,0.80);
+}
+
+nav li a{
+  font-family: LeagueGothic-Regular, Arial, sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  line-height: 30px;
+  letter-spacing: 2px;
+  text-shadow: 0px -1px 1px #0F0D0E;
+  text-decoration: none;
+  color: #FCFCFC;
+}
+
+.dropbtn:hover{
+  cursor: default;
+}
+
+li.dropdown{
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+nav:hover .dropdown-content {
+  display: block;
+}
+
+nav:hover{
+  height: 170px;
+}
+
+.dropdown-content a {
+  display: block;
+  padding-top: 5px;
+}
